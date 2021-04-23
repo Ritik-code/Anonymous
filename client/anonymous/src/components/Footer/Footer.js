@@ -1,8 +1,6 @@
 import React from "react";
 import { AppBar, Typography} from "@material-ui/core";
 import useStyles from "./styles";
-import { Link} from "react-router-dom";
-import { display } from '@material-ui/system';
 
 const Footer = () => {
   
@@ -17,45 +15,45 @@ const Footer = () => {
         <h3 className={classes.heading}>CREATED BY:-</h3>
         
       <Typography className={classes.root}>
-  <Link className={classes.git} href="https://github.com/ShashankAgrawal003" >
+  <a className={classes.git} href="https://github.com/ShashankAgrawal003" alt="shashank github" target="_blank" rel="noreferrer">
   <strong>Shashank</strong>
-  </Link>
+  </a>
   </Typography>
 
   <br></br>
 
   <Typography className={classes.root}>
-  <Link className={classes.git} href="https://github.com/vanshika0307"  >
+  <a className={classes.git} href="https://github.com/vanshika0307" alt="vanshika github" target="_blank" rel="noreferrer">
   <strong>Vanshika</strong>
-  </Link>
+  </a>
   </Typography>
   
   <br></br>
 
   <Typography className={classes.root}>
-  <Link className={classes.git} href="https://github.com/shalinikumari50" >
+  <a className={classes.git} href="https://github.com/shalinikumari50" alt="shalini github" target="_blank" rel="noreferrer">
   <strong>Shalini</strong>
-  </Link>
+  </a>
   </Typography>
 
   <br></br>
 
 <Typography className={classes.root}>
-<Link className={classes.git} href="https://github.com/Ritik-code"  >
+<a className={classes.git} href="https://github.com/Ritik-code" alt="ritik github" target="_blank" rel="noreferrer" >
   <strong>Ritik</strong>
-  </Link> 
+  </a> 
 </Typography>
 
   <br></br>
 
   <Typography className={classes.root}>
-  <Link className={classes.git} href="https://github.com/ADDY-AK"  >
+  <a className={classes.git} href="https://github.com/ADDY-AK" alt="adarsh github" target="_blank" rel="noreferrer">
   <strong>Adarsh</strong>
-  </Link>
+  </a>
   </Typography>
     </AppBar>
 
-    <Typography className={classes.copyright} align="center" variant="h6" component="h5" noWrap>
+    <Typography className={classes.copyright} align="center" noWrap>
   <strong display="block">© Anonymous, Inc. All rights reserved.2021</strong>
   </Typography>
     </div>
