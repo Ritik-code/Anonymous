@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { AppBar, Typography, Toolbar, Avatar, Button } from "@material-ui/core";
+import React from "react";
+import { AppBar, Typography} from "@material-ui/core";
 import useStyles from "./styles";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link} from "react-router-dom";
+import { display } from '@material-ui/system';
 
 const Footer = () => {
   
@@ -10,6 +11,7 @@ const Footer = () => {
   
 
   return (
+    <div>
     <AppBar className={classes.appBar} position="static" color="inherit">
         
         <h3 className={classes.heading}>CREATED BY:-</h3>
@@ -51,9 +53,12 @@ const Footer = () => {
   <strong>Adarsh</strong>
   </Link>
   </Typography>
- 
-      
     </AppBar>
+
+    <Typography className={classes.copyright} align="center" variant="h6" component="h5" noWrap>
+  <strong display="block">© Anonymous, Inc. All rights reserved.2021</strong>
+  </Typography>
+    </div>
   );
 };
 

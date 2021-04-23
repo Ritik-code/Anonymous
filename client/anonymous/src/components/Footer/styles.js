@@ -26,6 +26,13 @@ export default makeStyles((theme) => ({
         color:"#b34180"
         
       },
+      copyright: {
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "flex",
+        align:"center",
+        justifyContent: "center"
+      },
 
   },
 }));
