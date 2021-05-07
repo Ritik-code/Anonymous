@@ -45,7 +45,7 @@ const Navbar = () => {
           variant="h2"
           align="center"
         >
-          Memories
+          Vision
         </Typography>
         <img className={classes.image} src={memories} alt="icon" height="60" />
       </div>
