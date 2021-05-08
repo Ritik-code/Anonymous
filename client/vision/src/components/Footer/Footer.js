@@ -54,7 +54,7 @@ const Footer = () => {
     </AppBar>
 
     <Typography className={classes.copyright} align="center" noWrap>
-  <strong display="block">© Anonymous, Inc. All rights reserved.2021</strong>
+  <strong display="block">© Vision, Inc. All rights reserved.2021</strong>
   </Typography>
     </div>
   );
